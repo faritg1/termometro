@@ -5,40 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>termometro_inicial</title>
-    <link rel="stylesheet" href="./tem_ini.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./tem_ini.css">
 
 </head>
 <body>
-    <div class="row container">
 
-        <div class="col-6">
+    <div class="container con">
+        <div class="row">
+            <div class="col-6">
+                <h1>Convertidor de </br> Temperatura </h1>
+      
+                <div class="container">
+
+                    <div class="cent">
+                              
+                <P class="p1">Temperatura en </br> Farenheit</P>
+                <input type="number" id="num">
+                    </div>
+
+                <div class="row con2">
+                    
+                    <div class="col-6">
+
+                        <div id="rel"></div>
+
+                    </div>
+                    <div class="col-6">
+
+                        <button  id="calcular">Convertidor</button>
+                        <button  id="reiniciar">reiniciar</button>
+
+                    </div>
+                </div>
+            </div>
 
 
-        <h1>Convertidor de </br> temperatura</h1>
-    
-    
-        <p>temperatura en farenheit</p>
-    
-        <input type="number" id="num">
-    
-        <button  id="calcular">Convertidor</button>
-    
-        <div id="rel"></div>
+            </div>
 
-    </div>
-    
-    
-    
-    <div class="termometro col-6" >
-        <p>100°</p>
-        <div id="grados">
-            <div id="liquid"></div>
+            <div class="col-6 con3">
+                <p class="p2">100°</p>
+                <div id="grados">
+                    <div id="liquid"></div>
+                </div>
+                <p class="p3">0°</p>
+            </div>
         </div>
-        <p>0°</p>
     </div>
+
     
-    </div>
+
     
     <script src="./tem_ini.js"></script>
     

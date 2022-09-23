@@ -1,4 +1,5 @@
 let boton=document.getElementById("calcular");
+
 function conversion(){
     let grados = document.getElementById("num").value
     let celcius = ((grados-32)*5/9).toFixed(1)
@@ -6,8 +7,19 @@ function conversion(){
     document.getElementById("rel").innerHTML = celcius
     document.getElementById("liquid").style.height= celcius+"%"
 
-    let llenar = 248 
 
 }
 
 boton.addEventListener('click',conversion)
+
+
+function reiniciar(){
+
+    document.getElementById("num").value = ""
+    document.getElementById("rel").innerHTML = ""
+    document.getElementById("liquid").style.height= 0+"%"
+
+}
+
+let boton2=document.getElementById("reiniciar");
+boton2.addEventListener('click',reiniciar)

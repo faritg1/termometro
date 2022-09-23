@@ -3,37 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
-.container{
-    border: solid 1px black;
-    height: 400px;
-    width: 400px
-
-}
-#rel{
-    border: solid 1px  black;
-    height: 100px;
-    width: 100px;
+h1{
     display: flex;
-    justify-content: center ; 
     align-items: center;
-    margin: 50px;
+    text-align: center;
+}
+.con{
+    border: solid 1px black;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    padding: 20px;
 }
 #num{
-    width: 40px;
-    height: 40px;
-    margin: 50px;
+    width: 85px;
+    height: 80px;
+    
 }
-#grados{
-    border: solid 1px  black;
-    height: 100px;
-    width: 10px;
-    transform: rotate(180deg);
+#rel{
+    border: solid 1px black;
+    width: 85px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#liquid{
-    background-color: aqua;
-}
-.termometro{
-    margin-top: -200px;
+.cent{
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 30px;
 
 }
+.p1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.con2{
+    margin-top: 50px;
+}
+.con3{
+    display: flex;
+    flex-direction: column;; 
+    align-items: center;
+    justify-content: center; 
+}
+.con3>p:nth-child(3){
+    margin-top: 20px;
+    
+}
+
+#grados{
+    border: solid 1px  black;
+    height: 250px;
+    width: 60px;
+    transform: rotate(180deg);
+    border-radius: 10px;
+}
+#liquid{
+    background-color: red;
+    border-radius: 10px;
+}
+
+button{
+    border: solid 1px  black;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(61, 240, 253);
+    color: black;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: rgb(55, 0, 255);
+    color: white;
+}
+
+
